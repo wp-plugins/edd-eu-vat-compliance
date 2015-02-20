@@ -12,35 +12,21 @@ Comply with EU VAT regulations for digital goods: Charge your customers the VAT 
 
 == Description ==
 
-EDD EU VAT Compliance automatically shows the correct VAT rate (According to your visitors location) in your [Easy Digital Downloads](http://wordpress.org/extend/plugins/easy-digital-downloads/) checkout page and make sure the billing address and your visitor location match to use them as two factor validation for the applied VAT rate.
+EDD EU VAT Compliance automatically shows the correct VAT rate (According to your visitors location) in your [Easy Digital Downloads](http://wordpress.org/extend/plugins/easy-digital-downloads/) checkout page and make sure the billing address and your visitor location match to use them as two factor validation for the applied VAT rate. Also, this information is saved in your payment details for future reference or audit.
  
 
 = Features = 
 
-* **Identify your customers' locations**: the plugin will record evidence of your customer's location, using their billing address and their IP address (via a GeoIP lookup). This will be save in EDD Payments table and easily exported into CSV file.
+* **Identify your customers' locations**: The plugin will record evidence of your customer's location, using their billing address and their IP address (via a GeoIP lookup). This information will be save in EDD Payments table and easily exported into CSV file.
 
-* **Evidence is recorded, ready for audit:** full information that was used to calculate VAT and customer location is displayed in the EDD order screen in the back-end.
+* **Evidence is recorded:** The information that was used to calculate VAT and customer location (Billing Country and Geo IP Location) is displayed in the EDD order screen in the back-end.
 
-* **Maintaining each country's VAT rates:** The plugin will download once a month the updated list of VAT Rates using SSL is possible. 
-
-* **Reporting:** Use EDD export capabilities to create an excel file of how much VAT for each EU country you have charge.
-
-= Premium Version =
-
-The Premium version will include the following features.
-
-* **Full B2B Support:** Allow you customers to enter their EU VAT ID and validate against VIES Information.
-
-* **Non-contradictory evidences:** Require two non-contradictory evidences of location (if the customer address and GeoIP lookup contradict,
-then the customer will be asked to self-certify his location, by choosing between them).
+* **Maintaining each country's VAT rates:** If enable, the plugin will download once a month the updated list of VAT Rates using SSL is possible. 
 
 
 = How this product works = 
-The EDD EU VAT Compliance plugin updates the EDD checkout process and calculates the VAT due under the new regime. The information gathered by the plugin can then be used to prepare VAT reports, which will help filing the necessary VAT/MOSS returns.
+The EDD EU VAT Compliance plugin updates the EDD checkout process and load the VAT rate according to your customer billing address from a list of EU vat rates that (if you enable so) it will be updated once a month. Also, two pieces of non contradictory evidence are recorded for each sale: The Billing address and customer's Geo Located country. You can use this information as evidence for EU Digital products VAT regime.
 
-The EDD EU VAT Compliance plugin also records details about each sale, to prove that the correct VAT rate was applied. This is done to comply with the new rules, which require that at least two pieces of non contradictory evidence must be gathered, for each sale, as a proof of customer's location. The evidence is saved automatically against each new order, from the moment the EU VAT compliance plugin is activated.
-
-In addition to the above, the plugin includes powerful features to minimise the effort required to achieve compliance, such as the validation of EU VAT numbers for B2B sales, support for customer's self-certification of location, automatic update of exchange rates, etc. Please refer to the Key Features section, below, for more details.
 
 = About GeoIP location =
 Your visitor country will be pull by checking your visitor IP on data from one of two places:
@@ -133,3 +119,4 @@ We offer this plugin free of charge, but we cannot afford to also provide free, 
 
 = 1.0 =
 * First version
+* Tested up to EDD 2.3

@@ -57,7 +57,7 @@ if (!class_exists('VGS_EDD_EU_VAT_Settings')) :
                     'name' => __('Remote Update Sources', 'vgs_edd_eu_vat_compliance'),
                     'desc' => __('  URLs from which the VAT Rates information will be download. Separate by comma', 'vgs_edd_eu_vat_compliance'),
                     'type' => 'textarea',
-                    'std' => 'https://wceuvatcompliance.s3.amazonaws.com/rates.json, https://euvatrates.com/rates.json, http://wceuvatcompliance.s3.amazonaws.com/rates.json, http://euvatrates.com/rates.json'
+                    'std' => 'https://s3-us-west-2.amazonaws.com/edd-eu-vat/rates.json, https://euvatrates.com/rates.json, http://s3-us-west-2.amazonaws.com/edd-eu-vat/rates.json, http://euvatrates.com/rates.json'
                 )
             );
 
