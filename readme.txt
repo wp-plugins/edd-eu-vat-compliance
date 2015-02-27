@@ -8,28 +8,29 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Comply with EU VAT regulations for digital goods: Charge your customers the VAT rate according to their location and save evidence required by EU Laws
+EDD Plugin to comply with Europe VAT regulations for digital goods: Charge your customers the VAT rate according to their location and save evidence required by EU VAT Regulations (VATMOSS)
 
 == Description ==
 
-EDD EU VAT Compliance automatically shows the correct VAT rate (According to your visitors location) in your [Easy Digital Downloads](http://wordpress.org/extend/plugins/easy-digital-downloads/) checkout page and make sure the billing address and your visitor location match to use them as two factor validation for the applied VAT rate. Also, this information is saved in your payment details for future reference or audit.
+Easy Digital Downloads Plugin thats let you be in compliance with EU VAT regulations (VATMOSS): To do so, the correct VAT rate (According to your visitors location) is loaded in your EDD checkout page. Also, its make sure the billing address and your visitor location match to use them as two factor validation for the applied VAT rate. 
  
 
 = Features = 
+The plugin adds the following features to your Easy Digital Downloads VAT/TAX management.
 
-* **Identify your customers' locations**: The plugin will record evidence of your customer's location, using their billing address and their IP address (via a GeoIP lookup). This information will be save in EDD Payments table and easily exported into CSV file.
+* **Identify your customers' locations**: The plugin will record evidence of your customer's location, using their billing address and their IP address (via a GeoIP lookup). This information is save in EDD Payments table and easily exported into CSV file.
 
 * **Evidence is recorded:** The information that was used to calculate VAT and customer location (Billing Country and Geo IP Location) is displayed in the EDD order screen in the back-end.
 
 * **Maintaining each country's VAT rates:** If enable, the plugin will download once a month the updated list of VAT Rates using SSL is possible. 
 
 
-= How this product works = 
-The EDD EU VAT Compliance plugin updates the EDD checkout process and load the VAT rate according to your customer billing address from a list of EU vat rates that (if you enable so) it will be updated once a month. Also, two pieces of non contradictory evidence are recorded for each sale: The Billing address and customer's Geo Located country. You can use this information as evidence for EU Digital products VAT regime.
+= How this plugin works = 
+The plugin updates the Easy Digital Downloads checkout process and load the VAT rate according to your customer billing address from a list of EU vat rates that can be automatically updated once a month. Also, as required by EU TAX Regulations (VATMOSS), two pieces of non contradictory evidence are recorded for each sale: The Billing address and customer's Geo Located country. You can use this information as evidence for EU Digital products VAT regime.
 
 
 = About GeoIP location =
-Your visitor country will be pull by checking your visitor IP on data from one of two places:
+Your visitor country is identify by checking your visitor IP on data from one of two places:
 
 1. If GeoLite2 database by MaxMind is available it would be used in first place.
 2. If the database is not present the following online services will be used: 
@@ -39,7 +40,7 @@ Your visitor country will be pull by checking your visitor IP on data from one o
 
 
 = Disclaimer = 
-This product has been designed to help you fulfil the requirements of the following new EU VAT regulations:
+The plugin has been designed to help you fulfil the requirements of EU VAT regulations (VATMOSS) using Easy Digital Downloads.
 
 * Identify customers' location.
 * Collect at least two non-contradictory pieces of evidence about the determined location.
